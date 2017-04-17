@@ -1,1 +1,39 @@
-{     "devDependencies": {         "nw-gyp": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmdoc-nw-gyp",     "homepage": "https://github.com/npmdoc/node-npmdoc-nw-gyp",     "repository": {         "type": "git",         "url": "https://github.com/npmdoc/node-npmdoc-nw-gyp.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "api documentation for [nw-gyp (v3.4.0)](https://github.com/nwjs/nw-gyp#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-nw-gyp.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nw-gyp) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nw-gyp.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nw-gyp)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "nw-gyp": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-nw-gyp",
+    "keywords": [
+        "documentation",
+        "nw-gyp"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_nw_gyp.js",
+    "name": "npmdoc-nw-gyp",
+    "nameAlias": "npmdoc_nw_gyp",
+    "nameOriginal": "npmdoc-nw-gyp",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmdoc/node-npmdoc-nw-gyp.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
