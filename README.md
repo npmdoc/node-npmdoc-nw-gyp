@@ -1,4 +1,7 @@
-# api documentation for  [nw-gyp (v3.4.0)](https://github.com/nwjs/nw-gyp#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-nw-gyp.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nw-gyp) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nw-gyp.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nw-gyp)
+# npmdoc-nw-gyp
+
+#### basic api documentation for  [nw-gyp (v3.4.0)](https://github.com/nwjs/nw-gyp#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-nw-gyp.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nw-gyp) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nw-gyp.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nw-gyp)
+
 #### NW.js (node-webkit) native addon build tool
 
 [![NPM](https://nodei.co/npm/nw-gyp.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/nw-gyp)
