@@ -52,7 +52,7 @@
 <tspan x="10" y="794">  │ └── os-tmpdir@1.0.2 </tspan>
 <tspan x="10" y="810">  ├─┬ path-array@1.0.1 </tspan>
 <tspan x="10" y="826">  │ └─┬ array-index@1.0.0 </tspan>
-<tspan x="10" y="842">  │   ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="842">  │   ├─┬ debug@2.6.5 </tspan>
 <tspan x="10" y="858">  │   │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="874">  │   └─┬ es6-symbol@3.1.1 </tspan>
 <tspan x="10" y="890">  │     ├── d@1.0.0 </tspan>
@@ -93,7 +93,7 @@
 <tspan x="10" y="1450">  │ │   ├─┬ dashdash@1.14.1 </tspan>
 <tspan x="10" y="1466">  │ │   │ └── assert-plus@1.0.0 </tspan>
 <tspan x="10" y="1482">  │ │   ├── ecc-jsbn@0.1.1 </tspan>
-<tspan x="10" y="1498">  │ │   ├─┬ getpass@0.1.6 </tspan>
+<tspan x="10" y="1498">  │ │   ├─┬ getpass@0.1.7 </tspan>
 <tspan x="10" y="1514">  │ │   │ └── assert-plus@1.0.0 </tspan>
 <tspan x="10" y="1530">  │ │   ├── jodid25519@1.0.2 </tspan>
 <tspan x="10" y="1546">  │ │   ├── jsbn@0.1.1 </tspan>
